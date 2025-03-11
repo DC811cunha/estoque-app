@@ -1,0 +1,1 @@
+Lógica de controle e processamento das requisições.

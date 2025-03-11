@@ -1,0 +1,1 @@
+Arquivos de configuração, como conexão com o banco de dados e variáveis de ambiente.

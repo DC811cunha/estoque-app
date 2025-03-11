@@ -1,0 +1,1 @@
+Definição dos endpoints da API.

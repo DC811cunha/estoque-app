@@ -1,0 +1,1 @@
+// Arquivo principal do Express, que configura middlewares e rotas.
