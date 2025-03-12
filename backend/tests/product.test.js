@@ -18,13 +18,13 @@ describe('Product API', () => {
     const response = await request(app)
       .post('/api/produtos')
       .send({
-        nome: 'Produto Teste',
-        descricao: 'Descrição do produto teste',
-        preco: 10.99,
-        estoque: 100
+        nome_produto: 'Produto Teste',
+        descricao_produto: 'Descrição do produto teste',
+        preco_produto: 10.99,
+        estoque_produto: 100
       });
     expect(response.statusCode).toBe(201);
-    expect(response.body).toHaveProperty('id');
-    expect(response.body.nome).toBe('Produto Teste');
+    expect(response.body).toHaveProperty('id_produto');
+    expect(response.body.nome_produto).toBe('Produto Teste');
   });
 });
