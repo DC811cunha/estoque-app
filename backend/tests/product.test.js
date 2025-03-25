@@ -6,7 +6,7 @@ const { Product, sequelize } = require('../models');
 describe('Product API', () => {
   // Antes de todos os testes, sincroniza o banco (force: true recria as tabelas)
   beforeAll(async () => {
-    await sequelize.sync({ force: true });
+    await sequelize.authenticate();
   });
 
   // Fecha a conexão após os testes

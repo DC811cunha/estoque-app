@@ -1,1 +1,0 @@
-Definições e interações com o banco de dados (modelos).
